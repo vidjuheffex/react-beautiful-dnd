@@ -39,8 +39,6 @@ type Props = {|
 
 ### Required props
 
-> `react-beautiful-dnd` will throw an error if a required prop is not provided
-
 - `draggableId`: A _required_ `DraggableId(string)`. See our [identifiers guide](/docs/guides/identifiers.md) for more information.
 - `index`: A _required_ `number` that matches the order of the `<Draggable />` in the `<Droppable />`. It is simply the index of the `<Draggable />` in the list.
 
